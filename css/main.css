@@ -1,0 +1,39 @@
+.hero{
+    display:flex;
+    flex-direction: row;
+    background-color: #FEFAF5;
+    justify-content: space-around;
+    padding:5rem;
+}
+
+.hero__header{
+    font-size:2.5rem;
+}
+
+.hero__info{
+    max-width: 40%;
+    text-align: left;
+    color: #335576;
+}
+
+.hero__text{
+    padding-bottom: 1rem;
+}
+
+.hero__image-container{
+    text-align: center;
+}
+
+.hero__image{
+    max-width: 50%;
+}
+
+.hero__button{
+    background-color: #DB7A4E;
+    color: white;
+    padding: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius:2rem;
+    border: none;
+}
