@@ -25,6 +25,18 @@
     background-position: center;
 }
 
+.itinerary--hawaii{
+    background-image: url(../assets/Images/hawaii.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+.itinerary--greece{
+    background-image: url(../assets/Images/greece.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
 .itinerary__card{
     display:flex;
     flex-direction: column;
