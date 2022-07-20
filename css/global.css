@@ -8,6 +8,9 @@ body{
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
+
+/* navbar */
+
 .navbar{
     display:flex;
     justify-content: space-between;
@@ -45,6 +48,9 @@ body{
 .navbar__item--active{
     border-bottom: 3px solid #DB7A4E;
 }
+
+
+/* footer */
 
 .footer{
     background-color: #FEFAF5;

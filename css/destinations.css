@@ -1,0 +1,53 @@
+
+
+.itinerary{
+    display:flex;
+    flex-direction: column;
+    padding:5rem;
+}
+
+.itinerary__card-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.itinerary__location{
+    color: white;
+    font-size: 3rem;
+}
+
+.itinerary--iceland{
+    background-image: url(../assets/Images/iceland.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+.itinerary__card{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    width:15%;
+    padding:1rem .5rem;
+}
+
+.itinerary__day{
+text-align: center;
+font-weight: bold;
+border-bottom: 2px solid black;}
+
+.itinerary__list{
+    display:Flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    padding:0;
+
+}
+
+.itinerary__activity{
+    background-color: #FEFAF5;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    text-align: center;
+}
