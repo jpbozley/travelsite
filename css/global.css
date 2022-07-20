@@ -14,10 +14,16 @@ body{
 .navbar{
     display:flex;
     justify-content: space-between;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     align-items: center;
     background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 
@@ -34,7 +40,7 @@ body{
 .navbar__logo{
     color: #335576;
     font-weight: bold;
-    font-size:1rem;
+    font-size:1.5rem;
     text-decoration: none;
 }
 
@@ -57,6 +63,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-top: 1rem;
 }
 
 .footer__contact{
@@ -65,18 +72,23 @@ body{
 }
 
 .footer__hours{
-    display:flex;
-    flex-direction: column;
+width: 35%;
 }
 
 .footer__hours-info{
     display:flex;
     flex-direction:row;
+    justify-content: space-between;
 }
 
 .footer__hours-info-block{
-    padding: 1.5rem;
+display: flex;
+flex-direction: column;
+padding-right: 2rem;
+justify-content: center;
 }
+
+
 
 .footer__title{
     color: #335576;
@@ -89,11 +101,12 @@ body{
 .footer__subtitle{
     color:#DB7A4E;
     font-size:0.75rem;
+    padding-bottom: .5rem;
 }
 
 .footer__text{
     color: #335576;
-    font-size:.75rem;
+    font-size:1rem;
 }
 
 .footer__social{

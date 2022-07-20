@@ -32,20 +32,22 @@
     width:20%;
     padding:1rem .5rem;
     margin: 2rem;
+    margin-bottom: 5rem;
     border-radius: 10px;
 }
 
 .itinerary__day{
 text-align: center;
 font-weight: bold;
-border-bottom: 2px solid black;}
+border-bottom: 3.5px solid black;
+margin:0;}
 
 .itinerary__list{
     display:Flex;
     flex-direction: column;
     list-style: none;
     justify-content: center;
-    padding:0;
+    padding:0 .75rem;
 
 }
 
