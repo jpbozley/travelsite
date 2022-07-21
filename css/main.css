@@ -72,6 +72,9 @@
     justify-content: end;
 }
 
+.recommendations__card:hover{
+    border: 2px solid #DB7A4E
+}
 
 .recommendation__destination{
     padding: .5rem;

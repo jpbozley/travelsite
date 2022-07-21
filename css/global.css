@@ -36,6 +36,9 @@ body{
     color: black;
 }
 
+.navbar__link:hover{
+    border: 1px solid #DB7A4E;
+}
 
 .navbar__logo{
     color: #335576;
@@ -64,6 +67,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     padding-top: 1rem;
+    padding-bottom: 2.5rem;
 }
 
 .footer__contact{
